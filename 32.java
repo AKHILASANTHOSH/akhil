@@ -5,10 +5,10 @@ public class 32
 public static void main(String agrs[])
 {
 int count=0;
-String n;
+String b;
 Scanner sc=new Scanner(System.in);
-n=sc.nextline();
-String aa=n.splt("\\sc+");
+b=sc.nextline();
+String aa=b.splt("\\sc+");
 for(i=0;i<length;i++)
 {
 count++;
