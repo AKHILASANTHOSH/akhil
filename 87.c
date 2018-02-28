@@ -10,6 +10,6 @@ int main()
 	      gcd=i;
 	  }
 	}
-	printf("lcm of %d and %d is %d",a,b,gcd);
+	printf("gcd of %d and %d is %d",a,b,gcd);
 	return 0;
 }
