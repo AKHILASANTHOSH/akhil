@@ -2,14 +2,22 @@
 
 int main(void) 
 {
-	int a,b;
+	int a,b,c,i,r,count=0;
 	printf("enter 2 number:\n");
 	scanf("%d %d",&a,&b);
-	if(a==b)
+	c=a*b; 
+	printf("product is:",c);
+	
+for(i=1;i<=c/2;i++)
+{
+	r=i*i;
+	if(r==c)
 	{
-		printf("%d is a perfect square",a*b);
+		printf("%d is a perfect square",r);
+		count=1;
 	}
-	else
+}
+	if(count==0)
 	{
 		printf("%d is not a perfect square",a*b);
 	}
