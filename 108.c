@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int n,a,d,i,sum;
+	int n,a,d,i,sum=0;
 
 	printf("enter the first term\n");
 	scanf("%d",&a);
@@ -9,7 +9,10 @@ int main()
 	scanf("%d",&d);
 	printf("enter the no of terms\n");
 	scanf("%d",&n);
-    sum=(2*a+(n-1)*d);
+	for(i=0;i<n;i++)
+	{
+		sum=sum+(a+i*d);
+	}
     printf("Sum:%d",sum);
 
 	return 0;
