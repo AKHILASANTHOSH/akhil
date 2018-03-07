@@ -12,7 +12,6 @@ for(i=1;i<=num;i++)
 }
 l=a[0];
 s=a[0];
-;
 for(i=1;i<=num;i++)
 {
 	if(l<a[i])
