@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int k,n,m,i,c=0;
+int k,n1,m1,i,c=0;
 char a[10],b[10];
 printf("enter the string1:\n");
 scanf("%s",a);
@@ -9,11 +9,11 @@ printf("enter the string2:\n");
 scanf("%s",b);
 printf("enter k value:\n");
 scanf("%d",&k);
-n=strlen(a);
-m=strlen(b);
-if(n==m)
+n1=strlen(a);
+m1=strlen(b);
+if(n1==m1)
 {
-for(i=0;i<n;i++)
+for(i=0;i<n1;i++)
 {
 if(a[i]!=b[i])
 {
